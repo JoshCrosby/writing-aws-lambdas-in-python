@@ -87,5 +87,3 @@ def handler(event, context):
     return RevokeDefaultSg().process_event(event)
 
 
-if __name__ == "__main__":
-    pass
